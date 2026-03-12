@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samit  | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated background particles -->
+<div class="bg-grid"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAVBAR -->
+<header id="navbar">
+    <nav>
+        <div class="logo">SK<span class="dot">.</span></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certs</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-inner">
+        <div class="profile-ring-wrap">
+            <div class="profile-ring">
+                <div class="ring r1"></div>
+                <div class="ring r2"></div>
+                <img src="profile.jpeg" alt="Samit" class="profile-img">
+            </div>
+        </div>
+        <div class="hero-text">
+            <p class="greeting">Hello, world 👋</p>
+            <h1 class="hero-name">Samit</h1>
+            <div class="hero-roles">
+                <span class="role-tag">C++ Developer</span>
+                <span class="role-tag">Backend Engineer</span>
+                <span class="role-tag">AI Enthusiast</span>
+            </div>
+            <p class="hero-desc">B.Tech CSE student at <strong>Lovely Professional University</strong> — passionate about DSA, scalable backend systems & AI-powered applications.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn-ghost">Get in Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Problems Solved</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Built</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certifications</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span></span>
+        <p>Scroll</p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="section-inner">
+        <div class="section-label">01 — About</div>
+        <h2 class="section-heading">Who Am I?</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I'm <strong>Samit</strong>, a Computer Science Engineering student with a deep passion for crafting elegant solutions to complex problems. I specialize in <span class="highlight">Data Structures & Algorithms</span>, backend development using <span class="highlight">Flask</span>, and building smart AI-powered web applications.</p>
+                <p>With 100+ problems solved across competitive platforms, I thrive in fast-paced environments where clean code and performance matter. My goal: build technology that actually makes a difference.</p>
+                <div class="about-info">
+                    <div class="info-item"><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE — LPU</div>
+                    <div class="info-item"><i class="fa-solid fa-location-dot"></i> India</div>
+                    <div class="info-item"><i class="fa-solid fa-envelope"></i> khichersamit2@gmail.com</div>
+                </div>
+            </div>
+            <div class="about-card-wrap">
+                <div class="about-card">
+                    <div class="ac-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h4>Problem Solver</h4>
+                    <p>100+ problems on LeetCode, GFG & competitive platforms</p>
+                </div>
+                <div class="about-card">
+                    <div class="ac-icon"><i class="fa-solid fa-server"></i></div>
+                    <h4>Backend Builder</h4>
+                    <p>Flask APIs, MySQL databases, scalable system design</p>
+                </div>
+                <div class="about-card">
+                    <div class="ac-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h4>AI Explorer</h4>
+                    <p>NLP, Gemini API, intelligent web applications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section-dark">
+    <div class="section-inner">
+        <div class="section-label">02 — Skills</div>
+        <h2 class="section-heading">My Toolkit</h2>
+
+        <div class="skills-category">
+            <h3 class="cat-title"><span class="cat-dot tech"></span> Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card" style="--i:0">
+                    <img src="pyhton.jpg" alt="Python">
+                    <p>Python</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:1">
+                    <img src="cpp.png" alt="C++">
+                    <p>C++</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:2">
+                    <img src="java.png" alt="Java">
+                    <p>Java</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:3">
+                    <img src="javascript.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:4">
+                    <img src="react.png" alt="ReactJS">
+                    <p>ReactJS</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:5">
+                    <img src="flask.jpg" alt="Flask">
+                    <p>Flask</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:6">
+                    <img src="Mysql.png" alt="MySQL">
+                    <p>MySQL</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+                </div>
+                <div class="skill-card" style="--i:7">
+                    <img src="git.jpg" alt="GitHub">
+                    <p>GitHub</p>
+                    <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category" style="margin-top: 60px;">
+            <h3 class="cat-title"><span class="cat-dot soft"></span> Soft Skills</h3>
+            <div class="soft-skills-grid">
+                <div class="soft-skill"><i class="fa-solid fa-comments"></i> Communication</div>
+                <div class="soft-skill"><i class="fa-solid fa-people-group"></i> Teamwork</div>
+                <div class="soft-skill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                <div class="soft-skill"><i class="fa-solid fa-clock"></i> Time Management</div>
+                <div class="soft-skill"><i class="fa-solid fa-arrows-rotate"></i> Adaptability</div>
+                <div class="soft-skill"><i class="fa-solid fa-magnifying-glass"></i> Attention to Detail</div>
+            </div>
+        </div>
+
+        <div style="text-align:center; margin-top:50px;">
+            <a href="https://github.com/samitkhicher-max" target="_blank" class="btn-primary">
+                View GitHub <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<<section id="projects" class="section">
+    <div class="section-inner">
+        <div class="section-label">03 — Projects</div>
+        <h2 class="section-heading">Things I've Built</h2>
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+           <!-- PROJECT 1 — contribution ke saath image -->
+<div class="project-card-new">
+    <div class="project-img-area" style="background: linear-gradient(135deg, #1a1a3e, #0d2137);">
+        <i class="fa-solid fa-book-open project-big-icon"></i>
+        <span class="project-num-badge">01</span>
+    </div>
+    <div class="project-details">
+        <h3>Library Management System</h3>
+        <p class="project-summary">A complete console-based Library Management System built entirely by me.</p>
+
+        <!-- IMAGE + CONTRIBUTION side by side -->
+        <div class="contrib-with-img">
+            <img src="library.jpg" alt="Library Project" class="contrib-img">
+            <div class="contribution-box">
+                <h5><i class="fa-solid fa-user-gear"></i> My Contribution</h5>
+                <ul>
+                    <li>Designed and developed the entire project independently from scratch</li>
+                    <li>Built using C++ with OOP — classes, inheritance & polymorphism</li>
+                    <li>Implemented Data Structures (Linked List, Sorting)</li>
+                    <li>Used File Handling to permanently store and retrieve records</li>
+                    <li>Developed solo in VS Code on Windows</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tags">
+            <span>C++</span><span>DSA</span><span>OOP</span><span>File I/O</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/samitkhicher-max/library" target="_blank" class="btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</div>
+          <!-- PROJECT 2 -->
+<div class="project-card-new">
+    <div class="project-img-area" style="background: linear-gradient(135deg, #0d2137, #1a0d37);">
+        <i class="fa-solid fa-robot project-big-icon"></i>
+        <span class="project-num-badge">02</span>
+    </div>
+    <div class="project-details">
+        <h3>AI Book Summarizer</h3>
+        <p class="project-summary">A Flask-based AI web application built solo — users enter any book name or text and the app generates a smart summary using Natural Language Processing and Google Gemini API.</p>
+
+        <!-- IMAGE + CONTRIBUTION side by side -->
+        <div class="contrib-with-img">
+            <img src="aibook.jpg" alt="AI Book Summarizer" class="contrib-img">
+            <div class="contribution-box">
+                <h5><i class="fa-solid fa-user-gear"></i> My Contribution</h5>
+                <ul>
+                    <li>Independently built the complete full-stack web application — frontend to backend</li>
+                    <li>Integrated Google Gemini API for AI-powered intelligent book summarization</li>
+                    <li>Used Python & Flask to build the REST API backend and handle requests</li>
+                    <li>Applied NLP techniques for better text processing and context understanding</li>
+                    <li>Designed a clean responsive UI using HTML & CSS — developed solo in VS Code</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tags">
+            <span>Python</span><span>Flask</span><span>NLP</span><span>Gemini API</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/samitkhicher-max/Ai-book-summarizer" target="_blank" class="btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- PROJECT 3 -->
+<div class="project-card-new">
+    <div class="project-img-area" style="background: linear-gradient(135deg, #0d3720, #1a2d0d);">
+        <i class="fa-solid fa-magnifying-glass-location project-big-icon"></i>
+        <span class="project-num-badge">03</span>
+    </div>
+    <div class="project-details">
+        <h3>Rajasthan Tourist Search Platform</h3>
+        <p class="project-summary">A Google-style tourist search platform built independently — users can search any Rajasthan tourist destination and get detailed information served dynamically from the Flask backend.</p>
+
+        <!-- IMAGE + CONTRIBUTION side by side -->
+        <div class="contrib-with-img">
+            <img src="rajasthan.jpg" alt="Rajasthan Tourist Platform" class="contrib-img">
+            <div class="contribution-box">
+                <h5><i class="fa-solid fa-user-gear"></i> My Contribution</h5>
+                <ul>
+                    <li>Sole developer — handled everything from idea, design, backend to final deployment</li>
+                    <li>Built a Google-style search interface using HTML, CSS & JavaScript</li>
+                    <li>Developed Flask backend with dynamic data handling and fast search response</li>
+                    <li>Designed and structured the tourist database using MySQL</li>
+                    <li>Implemented optimized search logic to return relevant results instantly</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tags">
+            <span>HTML</span><span>JavaScript</span><span>Flask</span><span>MySQL</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/samitkhicher-max/-Rajasthan-Tourist-Search-Platform-" target="_blank" class="btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section section-dark">
+    <div class="section-inner">
+        <div class="section-label">04 — Certificates</div>
+        <h2 class="section-heading">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="cert-info">
+                    <h4>Data Structures & Algorithms</h4>
+                    <p>Cipher Schools</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-cloud"></i></div>
+                <div class="cert-info">
+                    <h4>Cloud Computing</h4>
+                    <p>NPTEL</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="cert-info">
+                    <h4>Fundamentals of Network Communication</h4>
+                    <p>Coursera</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+                <div class="cert-info">
+                    <h4>Computer Communication</h4>
+                    <p>Coursera</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                <div class="cert-info">
+                    <h4>Introduction to Hardware & OS</h4>
+                    <p>Coursera</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+    <div class="section-inner">
+        <div class="section-label">05 — Achievements</div>
+        <h2 class="section-heading">Milestones</h2>
+        <div class="achievements-grid">
+            <div class="achieve-card">
+                <div class="achieve-glow"></div>
+                <i class="fa-solid fa-trophy"></i>
+                <h4>100+ Problems Solved</h4>
+                <p>Solved 100+ DSA problems on LeetCode, GeeksforGeeks & competitive coding platforms</p>
+            </div>
+            <div class="achieve-card">
+                <div class="achieve-glow"></div>
+                <i class="fa-solid fa-star"></i>
+                <h4>5 Certifications</h4>
+                <p>Earned certifications from NPTEL, Coursera & Cipher Schools in CS domains</p>
+            </div>
+            <div class="achieve-card">
+                <div class="achieve-glow"></div>
+                <i class="fa-solid fa-rocket"></i>
+                <h4>AI Project Builder</h4>
+                <p>Built production-grade AI web app with Gemini API integration for real users</p>
+            </div>
+            <div class="achieve-card">
+                <div class="achieve-glow"></div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h4>LPU Scholar</h4>
+                <p>Pursuing B.Tech CSE at Lovely Professional University with consistent academic performance</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-dark">
+    <div class="section-inner">
+        <div class="section-label">06 — Contact</div>
+        <h2 class="section-heading">Let's Connect</h2>
+        <p class="contact-sub">Have a project in mind or just want to say hi? I'm always open to new opportunities.</p>
+        <div class="contact-cards">
+            <a href="tel:+917424858360" class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+            <span>Phone</span>
+            <p>+91 7424858360</p>
+        </div>
+    </a>
+            <a href="mailto:khichersamit2@gmail.com" class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <span>Email</span>
+                    <p>khichersamit2@gmail.com</p>
+                </div>
+            </a>
+            <a href="https://github.com/samitkhicher-max" target="_blank" class="contact-card">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                    <span>GitHub</span>
+                    <p>samitkhicher-max</p>
+                </div>
+            </a>
+            <a href="https://linkedin.com/in/samit-khicher1a/" target="_blank" class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                    <span>LinkedIn</span>
+                    <p>samit-khicher1a</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Crafted with <span style="color: var(--accent)">♥</span> by <strong>Samit Khicher</strong> · © 2026 All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

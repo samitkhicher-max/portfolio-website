@@ -54,3 +54,11 @@ window.addEventListener('scroll', () => {
 });
 
 console.log('🚀 Portfolio Loaded — Samit Khicher');
+function openResume(){
+    document.getElementById("resumeModal").style.display = "flex";
+}
+
+function closeResume(){
+    document.getElementById("resumeModal").style.display = "none";
+}
+

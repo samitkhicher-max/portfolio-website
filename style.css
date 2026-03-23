@@ -690,10 +690,10 @@ nav ul li a:hover { color: var(--text); background: var(--card-bg); }
 /* ===========================
    CERTIFICATES
 =========================== */
-.cert-grid {
+.cert-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .cert-card {
@@ -1147,3 +1147,22 @@ font-size:14px;
 color:var(--accent);
 font-weight:600;
 }
+.cert-btn{
+display:inline-block;
+margin-top:12px;
+padding:8px 16px;
+font-size:14px;
+border-radius:8px;
+background: linear-gradient(135deg, #00f5c4, #00c3ff);
+color:#000;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,255,200,0.3);
+}
+
+.cert-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(0,255,200,0.5);
+}
+
